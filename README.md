@@ -54,3 +54,7 @@ A fim de colocar em prática meu conhecimento a respeito da linguagem SQL, desen
     * ID da Disciplina: Uma chave estrangeira que faz referência à disciplina.
     * Valor da Nota: A nota atribuída ao aluno na disciplina.
     * Data da Avaliação: A data em que a avaliação foi realizada.
+  
+# Conexão do Banco de Dados em Python
+Para esse projeto optei em fazer a conexão do Banco de Dados com a aplicação usando Python. Para isso criei funções para o CRUD para todas as tabelas principais e funções que seguem a mesma lógica para as tabelas de associação. 
+Tentei organizar da melhor forma, separando os arquivos em diretórios diferentes conforme sua funcionalidade. Além disso, utilizei o .gitignore para proteger os parâmetros utilizados para fazer a conexão com o MySQL, dessa forma mantendo sua segurança e integridade.
